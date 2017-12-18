@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "LKBadgeView"
+  s.name         = "LKbadgeView"
   s.version      = "1.2.0"
   s.summary      = "Badge view"
   s.description  = <<-DESC
