@@ -31,8 +31,8 @@ typedef enum {
 } LKBadgeViewHorizontalAlignment;
 
 typedef enum {
-    LKBadgeViewWidthModeStandard = 0,     // 30x20
-    LKBadgeViewWidthModeSmall            // 22x20
+    LKBadgeViewWidthModeStandard = 0,     // 30x18
+    LKBadgeViewWidthModeSmall            // 22x18
 } LKBadgeViewWidthMode;
 
 typedef enum {
@@ -42,11 +42,11 @@ typedef enum {
 
 
 // Constants
-#define LK_BADGE_VIEW_STANDARD_HEIGHT       20.0
+#define LK_BADGE_VIEW_STANDARD_HEIGHT       18.0
 #define LK_BADGE_VIEW_LARGE_HEIGHT          30.0
 #define LK_BADGE_VIEw_STANDARD_WIDTH        30.0
-#define LK_BADGE_VIEw_MINIMUM_WIDTH         22.0
-#define LK_BADGE_VIEW_FONT_SIZE             16.0
+#define LK_BADGE_VIEw_MINIMUM_WIDTH         18.0
+#define LK_BADGE_VIEW_FONT_SIZE             11.0
 
 
 @interface LKBadgeView : UIView
